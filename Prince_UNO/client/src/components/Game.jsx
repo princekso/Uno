@@ -4,7 +4,7 @@ import io from 'socket.io-client';
 import Card from './Card';
 import ChatBox from './ChatBox';
 
-const socket = io('http://localhost:3000'); // Replace with Render/host URL
+const socket = io('https://backendserver-edki.onrender.com'); // Replace with Render/host URL
 
 function Game({ player, room }) {
   const [hand, setHand] = useState([]);
