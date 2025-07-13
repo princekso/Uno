@@ -1,7 +1,7 @@
 // 📁 client/src/App.jsx
 import React, { useState } from 'react';
-import Lobby from './components/Lobby';
-import Game from './components/Game';
+import Lobby from './Lobby';
+import Game from './Game';
 
 function App() {
   const [player, setPlayer] = useState(null);
